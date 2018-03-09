@@ -1,3 +1,3 @@
-svn add *
-svn commit -m "$*,`date`"
+svn --force add *
+svn --force-log commit -m "$*,`date`"
 
