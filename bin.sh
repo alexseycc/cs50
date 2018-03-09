@@ -1,3 +1,3 @@
 svn add *
-svn commit -m "`date`"
+svn commit -m "$*,`date`"
 
